@@ -1,0 +1,25 @@
+// concatination: some error i don't know..
+#include<stdio.h>
+#include<string.h>
+int main()
+{
+    int i=0,j=0,temp;
+    char a[20],b[10];
+    printf("Enter the string1:");
+    gets(a);
+    printf("Enter the string2:");
+    gets(b);
+    i=strlen(a);
+    temp=i;
+    while(b[j]='\0')
+    {
+        a[temp+1]=b[j];
+        temp=temp+1;
+        j++;
+    }
+    printf("%d\n",temp);
+    a[i]='\0';
+    // puts(a);
+    printf("%s",a);
+
+}
