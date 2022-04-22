@@ -1,2 +1,11 @@
 for x in range(1,11):
 	list1.append(x)
+
+#code of harray 48 lect:for map and also a great example for traversal a list by range using function:
+#1st for travlsal of a list by giving its name in the range:
+
+like for type casting also can be done:
+num=["3","34","64"]
+for i in range(len()num):
+	num[i]==int(num[i])#here done for type casting..
+	
