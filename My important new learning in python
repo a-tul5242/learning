@@ -1,0 +1,8 @@
+t=int(input())
+for x in range(1,t+1):
+    n,X=input().split()#how to take input in one line by using a single space..
+    if n==X or n<X:
+        print("YES")
+    else:
+        print("NO")
+        
