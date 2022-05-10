@@ -1,0 +1,20 @@
+# OOP Exercise 1: Create a Class with instance attributes:
+#MY ANS:
+'''
+class Vehicle:
+    max_speed=10
+    mileage=100
+obj1=Vehicle()
+print(f"The max_speed:{obj1.max_speed}\nThe mileage:{obj1.mileage}")
+
+Website Answer:
+
+class Vehicle:
+    def __init__(self, max_speed, mileage):
+        self.max_speed = max_speed
+        self.mileage = mileage
+
+modelX = Vehicle(240, 18)
+print(modelX.max_speed, modelX.mileage)
+
+'''
