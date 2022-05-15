@@ -19,3 +19,20 @@ for i in range(int(input())):
         print("YES")
     else:
         print("NO    v.v.important
+
+===============================================================================================================================================
+New learning in how to take element in python in list in one line and how to check it in if statement:
+
+t=int(input())
+l=[]
+i=0
+for _ in range(1,t+1):
+    N=int(input())
+    l = [int(z) for y, z in enumerate(input().split()) if y < N and z.isdigit()]
+    for y in l:
+        if y>=1000:
+            l.pop(i)
+        i=i+1
+    print(len(l))
+                
+    ==========================================================================================================================================
