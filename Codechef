@@ -1,0 +1,17 @@
+===========================
+problem code:INCREAR 
+# cook your dish here
+T = int(input())
+for i in range (T):
+    X,Y = map(int,input().split())
+    if X==Y:
+        print(0)
+        continue
+    elif Y>X:
+        print(Y-X)
+    else:
+        if (X-Y)%2==0:
+            print((X-Y)//2)
+        else:
+            print(2+(X-Y)//2)
+    
