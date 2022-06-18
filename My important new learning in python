@@ -54,3 +54,21 @@ Defining Lexicographical Order
 Thus, lexicographical order is a way for formalizing word order where the order of the underlying symbols is given.
 In programming, lexicographical order is popularly known as Dictionary order and is used to sort a string array,
 compare two strings, or sorting array elements.
+============================================================================
+MOST IMPORTANT LEARNING===============
+
+import sys
+n=input("Enter the elements with space:")
+
+list1=n.split()
+print(list1)
+
+
+#for preventing the consol window to be closed.
+status='idlelib' in sys.modules
+
+# Put this segment at the end of code
+if status==False:
+    input()
+
+=================================================================================================
